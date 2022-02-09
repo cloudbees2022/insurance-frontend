@@ -32,7 +32,7 @@ pipeline {
             echo "TODO - build and push image"
           }
         }
-        stage('Deploy') 
+        stage('Deploy') {
           agent any
           environment {
             FAVORITE_COLOR = 'BLUE'
